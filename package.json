@@ -39,6 +39,5 @@
     "linters": {
       "bem": false
     }
-  },
-  "dependencies": {}
+  }
 }

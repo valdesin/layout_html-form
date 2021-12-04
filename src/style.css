@@ -1,10 +1,17 @@
 /* styles go here */
+p {
+  margin: 0;
+}
 
 .form-field {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.form-field:last-child {
+  margin: 0;
 }
 
 .block-container {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }

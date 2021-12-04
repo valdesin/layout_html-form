@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
       onsubmit="onSubmit()"
       >
       <fieldset class="block-container">
@@ -29,17 +31,18 @@
           >
         </label>
 
-        <label for="age" class="form-field">How old are you?
+        <label for="age" class="form-field">How old are You?
           <input type="number" min="12"
             max="100" id="age"
-            value="0" name="age"
+            value="12" name="age"
             required
           >
         </label>
 
         <label for="birthday" class="form-field">Full date of birth:
           <input type="date" id="birthday"
-            name="birthday">
+            name="birthday"
+          >
         </label>
 
         <label for="terms-and-conditions" class="form-field"
@@ -53,10 +56,10 @@
       <fieldset class="block-container">
         <legend>Registration</legend>
 
-        <label for="e-mail" class="form-field">E-mail:
-          <input type="email" id="e-mail"
-                 placeholder="email@example.com" name="email"
-                 autocomplete="off" required
+        <label for="email" class="form-field">E-mail:
+          <input type="email" id="email"
+            placeholder="email@example.com" name="email"
+            autocomplete="off" required
           >
         </label>
 
@@ -72,7 +75,7 @@
       <fieldset class="block-container">
         <legend>An interesting fact about you!</legend>
 
-        <p class="form-field">Do you love cats ?
+        <p class="form-field">Do you love cats?
           <label for="yes-button">Yes
             <input type="radio" value="yes"
               id="yes-button" name="love-cats">
@@ -80,26 +83,29 @@
 
           <label for="no-button">No
             <input type="radio" value="no"
-              id="no-button" name="love-cats">
+              id="no-button" name="love-cats"
+            >
           </label>
         </p>
 
         <label for="favorite-color" class="form-field"
         >What is your favorite color?
           <input type="color" id="favorite-color"
-            name="favorite-color">
+            name="favorite-color"
+          >
         </label>
 
         <label for="time-go-to-bed" class="form-field"
         >What time do you go to bed?
           <input type="time" id="time-go-to-bed"
-            name="time-go-to-bet">
+            name="time-go-to-bet"
+        >
         </label>
 
         <label for="brands-car" class="form-field"
-        >What are you favorite brand of cars?
+        >What are your favorite brand of cars?
           <select name="brands-car" id="brands-car"
-                  multiple>
+            multiple>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="lada">Lada</option>
@@ -109,8 +115,8 @@
         <label for="rate-work" class="form-field"
         >How do you rate our work?
           <input type="range" min="0"
-                 max="100" id="rate-work"
-                 value="0" name="rate-our-work">
+            max="100" id="rate-work"
+            value="0" name="rate-our-work">
         </label>
       </fieldset>
 
@@ -118,9 +124,9 @@
         <legend>Additional info:</legend>
         <label for="comments" class="form-field">Comments:
           <textarea name="comments" id="comments"
-                    cols="20" rows="2"
-                    maxlength="280"
-         ></textarea>
+            cols="20" rows="2"
+            maxlength="280">
+          </textarea>
         </label>
 
         <label for="recommend-us" class="form-field"
